@@ -53,14 +53,14 @@
 	{:else}
 		<div class="grid">
 			<details open>
-				<summary>Both</summary>
+				<summary>Both: {both.length}</summary>
                 
 				{#each both as b}
 					<p>{b}</p>
 				{/each}
 			</details>
 			<details open>
-				<summary>Different</summary>
+				<summary>Different: {diff.length}</summary>
 				{#each diff as d}
 					<p>{d}</p>
 				{/each}
